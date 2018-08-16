@@ -16,6 +16,7 @@
 		CEB760CD2124354B00616B1E /* MvvmGithubClientAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB760CC2124354B00616B1E /* MvvmGithubClientAppUITests.swift */; };
 		CEB760DB2124739200616B1E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB760DA2124739200616B1E /* User.swift */; };
 		CEB760DD212474A200616B1E /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB760DC212474A200616B1E /* GithubApi.swift */; };
+		CEB760DF2125281000616B1E /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB760DE2125281000616B1E /* ImageDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CEB760CE2124354B00616B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEB760DA2124739200616B1E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CEB760DC212474A200616B1E /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
+		CEB760DE2125281000616B1E /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				CEB760B82124354B00616B1E /* Info.plist */,
 				CEB760DA2124739200616B1E /* User.swift */,
 				CEB760DC212474A200616B1E /* GithubApi.swift */,
+				CEB760DE2125281000616B1E /* ImageDownloader.swift */,
 			);
 			path = MvvmGithubClientApp;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB760AF2124354900616B1E /* ViewController.swift in Sources */,
+				CEB760DF2125281000616B1E /* ImageDownloader.swift in Sources */,
 				CEB760AD2124354900616B1E /* AppDelegate.swift in Sources */,
 				CEB760DB2124739200616B1E /* User.swift in Sources */,
 				CEB760DD212474A200616B1E /* GithubApi.swift in Sources */,
