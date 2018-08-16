@@ -17,6 +17,10 @@
 		CEB760DB2124739200616B1E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB760DA2124739200616B1E /* User.swift */; };
 		CEB760DD212474A200616B1E /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB760DC212474A200616B1E /* GithubApi.swift */; };
 		CEB760DF2125281000616B1E /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB760DE2125281000616B1E /* ImageDownloader.swift */; };
+		CEDAE7A221252BA7004AA192 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAE7A121252BA7004AA192 /* UserListViewModel.swift */; };
+		CEDAE7A421252C68004AA192 /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAE7A321252C68004AA192 /* UserCellViewModel.swift */; };
+		CEDAE7A6212547FC004AA192 /* TImeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAE7A5212547FC004AA192 /* TImeLineCell.swift */; };
+		CEDAE7A821254A6B004AA192 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAE7A721254A6B004AA192 /* TimeLineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		CEB760DA2124739200616B1E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CEB760DC212474A200616B1E /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
 		CEB760DE2125281000616B1E /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		CEDAE7A121252BA7004AA192 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		CEDAE7A321252C68004AA192 /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
+		CEDAE7A5212547FC004AA192 /* TImeLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImeLineCell.swift; sourceTree = "<group>"; };
+		CEDAE7A721254A6B004AA192 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 				CEB760DA2124739200616B1E /* User.swift */,
 				CEB760DC212474A200616B1E /* GithubApi.swift */,
 				CEB760DE2125281000616B1E /* ImageDownloader.swift */,
+				CEDAE7A121252BA7004AA192 /* UserListViewModel.swift */,
+				CEDAE7A321252C68004AA192 /* UserCellViewModel.swift */,
+				CEDAE7A5212547FC004AA192 /* TImeLineCell.swift */,
+				CEDAE7A721254A6B004AA192 /* TimeLineViewController.swift */,
 			);
 			path = MvvmGithubClientApp;
 			sourceTree = "<group>";
@@ -266,10 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB760AF2124354900616B1E /* ViewController.swift in Sources */,
+				CEDAE7A221252BA7004AA192 /* UserListViewModel.swift in Sources */,
+				CEDAE7A421252C68004AA192 /* UserCellViewModel.swift in Sources */,
 				CEB760DF2125281000616B1E /* ImageDownloader.swift in Sources */,
+				CEDAE7A6212547FC004AA192 /* TImeLineCell.swift in Sources */,
 				CEB760AD2124354900616B1E /* AppDelegate.swift in Sources */,
 				CEB760DB2124739200616B1E /* User.swift in Sources */,
 				CEB760DD212474A200616B1E /* GithubApi.swift in Sources */,
+				CEDAE7A821254A6B004AA192 /* TimeLineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
