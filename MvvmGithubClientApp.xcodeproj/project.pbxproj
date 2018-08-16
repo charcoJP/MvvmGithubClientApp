@@ -14,6 +14,8 @@
 		CEB760B72124354B00616B1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB760B52124354B00616B1E /* LaunchScreen.storyboard */; };
 		CEB760C22124354B00616B1E /* MvvmGithubClientAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB760C12124354B00616B1E /* MvvmGithubClientAppTests.swift */; };
 		CEB760CD2124354B00616B1E /* MvvmGithubClientAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB760CC2124354B00616B1E /* MvvmGithubClientAppUITests.swift */; };
+		CEB760DB2124739200616B1E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB760DA2124739200616B1E /* User.swift */; };
+		CEB760DD212474A200616B1E /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB760DC212474A200616B1E /* GithubApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CEB760C82124354B00616B1E /* MvvmGithubClientAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MvvmGithubClientAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB760CC2124354B00616B1E /* MvvmGithubClientAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvvmGithubClientAppUITests.swift; sourceTree = "<group>"; };
 		CEB760CE2124354B00616B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB760DA2124739200616B1E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CEB760DC212474A200616B1E /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				CEB760B32124354B00616B1E /* Assets.xcassets */,
 				CEB760B52124354B00616B1E /* LaunchScreen.storyboard */,
 				CEB760B82124354B00616B1E /* Info.plist */,
+				CEB760DA2124739200616B1E /* User.swift */,
+				CEB760DC212474A200616B1E /* GithubApi.swift */,
 			);
 			path = MvvmGithubClientApp;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				CEB760AF2124354900616B1E /* ViewController.swift in Sources */,
 				CEB760AD2124354900616B1E /* AppDelegate.swift in Sources */,
+				CEB760DB2124739200616B1E /* User.swift in Sources */,
+				CEB760DD212474A200616B1E /* GithubApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
